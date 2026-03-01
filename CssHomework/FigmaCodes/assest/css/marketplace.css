@@ -162,37 +162,91 @@ header{
 
 .image-container {
     display: flex;
-    justify-content: space-between; 
-    gap: 20px;
-    width: 350px;
+    margin-inline: auto;
+    justify-content: space-between;
+    /* gap: 20px; */
+    
        
 }
 
-.body-header {
-   max-width: 1440px;
-   margin-inline: auto;
-   padding-inline: 80px;
-   display: flex;
+.container-products {
+    display: flex;
     justify-content: space-between;
-}
-
-.line {
     max-width: 1440px;
     margin-inline: auto;
-   padding-inline: 80px;
-   align-items: center;
 }
 
-.body-content {
-    max-width: 1440px;
-   margin-inline: auto;
-   padding-inline: 80px;
-   margin-bottom: 80px;
-}
-
-.body-content img {
-    width: 354px;
-    border-radius: 10px;
+.products-container {
     display: flex;
-    flex: 1fr 1fr;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin-inline: auto;   
+    margin-top: 24px;
+    margin-bottom: 80px;
+    gap: 24px;
+    flex-wrap: wrap;
 }
+.container-products p{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: #212121;
+    margin-top: 80px;
+    padding-right: 1250px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #1d1d1f;
+}
+
+.products{
+    max-width: 1440px;
+    display: inline-block;
+    margin-inline: auto;   
+    margin-top: 24px;
+    margin-bottom: 80px;
+    gap: 24px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.products img{
+    width: 354px;
+    border-radius: 5px;
+}
+
+.sss-container{
+    max-width: 1440px;
+    margin-inline: auto;
+    /* padding-inline: 80px; */
+    font-size: 20px;
+}
+
+.sss-container h6{
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 600px;
+    margin-bottom: 80.5px;
+}
+
+.sss-container summary{
+    font-family: 'Montserrat';
+    font-size: 30px;
+    color: #212121;
+    margin-bottom: 24px;
+    font-weight: bold;
+    gap: 12px;
+}
+
+.footer{
+    max-width: 1440px;
+    margin-inline: auto;
+    padding-inline: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 32px;
+}
+
+.footer img{
+    width: 1440px;
+}
+
+

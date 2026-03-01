@@ -6,196 +6,132 @@
 }
 
   body {
-  font-family: system-ui;
-  width: 1440px;
-  height: 3337px;
-  /* border: 1px solid rgb(228, 225, 225); */
-  border-radius: 20px;
+  font-family: montserrat;
 }
+/* header start */
 
- .header {
-  width: 1440px;
-  height: 657px;
+ .header-container {
+  max-width: 1110px;
   margin-inline: auto;
-  
-
-  text-align: left;
 } 
 
-.header h6 {
+.header-container h4 {
+  margin-top: 120px;
   font-size: 30px;
+  color:#212121
   
-  margin-top: 20px;
-  margin-left: 170px;
 }
 
-.header h4 {
+.header-container p {
   font-size: 60px;
-  margin-top: 10px;
-  margin-left: 170px;
 }
 
- .header img{
+.socialmediaicons {
+  display: flex;
   width: 48px;
-  height: 48px;
-  margin-left: 170px;
-  margin-top: 48px;
-} 
+  gap: 32px;
+  margin-top: 40px;
+  margin-bottom: 120px;
+}
 
-.body-header h6{
-  font-size: 30px;
-  margin-left: 170px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+/* header end */
+
+/* projects start */
+
+.container{
+  max-width: 1110px;
+  margin-inline: auto;
   }
 
 
 
-  .body {
-  width: 1110px;
-  height: 733px;
-  margin-inline: auto;
-  border: 1px solid rgb(228, 225, 225);
-  border-radius: 10px;
-}
-
-
-
-.body img{
-  width: 1062px;
-  height: 468px;
-  border-radius: 10px;
-  
-  margin: 20px
-}
-
-.body h5{
-  font-size: 30px;
-  margin-top: 20px;
-  margin-left: 20px;
-}
-
-.body p{
-  font-size: 16px;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-bottom: 50px;
-}
-
-.body a{
-  font-size: 16px;
-  color: black;
-  text-decoration: none;
-  
-  margin-left: 20px;
-}
-
-.body2 {
-  width: 1110px;
-  height: 733px;
-  margin-inline: auto;
-  border: 1px solid rgb(228, 225, 225);
-  margin-top: 60px;
-  border-radius: 10px;
-  
-}
-
-.body2 img{
-  width: 1062px;
-  height: 468px;
-  border-radius: 10px;
-  
-  margin: 20px
-}
-
-.body2 h5{
-  font-size: 30px;
-  margin-top: 20px;
-  margin-left: 20px;
-}
-
-.body2 p{
-  font-size: 16px;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-bottom: 50px;
-}
-
-.body2 a{
-  font-size: 16px;
-  color: black;
-  text-decoration: none;
-  
-  margin-left: 20px;
-}
-
-.body3 {
-  width: 1110px;
-  height: 733px;
-  margin-inline: auto;
-  border: 1px solid rgb(228, 225, 225);
-  margin-top: 60px;
-  border-radius: 10px;
+  .container h6{
+    font-size: 30px;
+    margin-top: 122px;
   }
 
-.body3 img{
-  width: 1062px;
-  height: 468px;
-  border-radius: 10px;
-  
-  margin: 20px
-}
+  .figma-projects {
+    width: 1110px;
+    height: 733px;
+    margin-inline: auto;
+    border: 1px solid #C4C4C4;
+    margin-top: 60px;
+    border-radius: 10px;
+  }
+    
+    
 
-.body3 h5{
-  font-size: 30px;
-  margin-top: 20px;
-  margin-left: 20px;
-}
-
-.body3 p{
-  font-size: 16px;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-bottom: 50px;
-}
-
-.body3 a{
-  font-size: 16px;
-  color: black;
-  text-decoration: none;
-  
-  margin-left: 20px;
-}
-
-.body4 {
-  width: 1110px;
-  height: 200px;
-  margin-inline: auto;
-  border: 1px solid rgb(228, 225, 225);
-  margin-top: 60px;
-  border-radius: 10px;
+  .figma-projects h4{
+    font-size: 30px;
+    gap: 24px;
+    
   }
 
-.body4 h4{
-  font-size: 30px;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-bottom: 50px;
-}
+  .figma-projects a{
+    font-size: 24px;
+    padding: 43px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(55, 57, 139);
+    display: inline-block;
+    align-items: center;
+    margin: 20px;
+    text-decoration: none;
+    align-items: space-between;
+    flex-wrap: wrap;
 
-.body4 a{
-  font-size: 30px;
-  margin: 50px;
-  padding: 21px;
-  border: 1px solid rgb(228, 225, 225);
-  margin-left: 20px;
-  border-radius: 10px;
-}
+  }
+  
+  
+  .project {
+    width: 1110px;
+    height: 733px;
+    margin-inline: auto;
+    border: 1px solid #C4C4C4;
+    margin-top: 60px;
+    border-radius: 10px;
+    }
+
+  .project img{
+    width: 1062px;
+    height: 468px;
+    border-radius: 10px;
+    margin: 20px
+  }
+
+  .project h4{
+    font-size: 30px;
+    gap: 24px;
+    margin-left: 20px;
+  }
+
+  .project p{
+    font-family: open-sans;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 80px;
+    
+  }
+
+  .project a{
+    font-size: 14px;
+    color: #212121;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-bottom: 24px;
+  }
+
+/* projects end */
+
+/* contact start */
 
 .contact h6{
   font-size: 20px;
-  
+  margin-bottom: 20px;
   margin-top: 250px;
+
   
 }
 
@@ -203,5 +139,5 @@
   font-size: 40px;
   padding-bottom: 50px;
   margin-bottom: 50px;
-  margin-left: -10px;
+  
 }

@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  body {
+  font-family: montserrat;
+}
+
+.header{
+    max-width: 1110px;
+    margin-inline: auto;
+}
+
+.header h4{
+    margin-top: 80px;
+    font-size: 40px;
+    color:#212121
+    
+}
+
+.header-content{
+    display: flex;
+    gap: 16px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    align-items: center;
+}
+
+.header img{
+    
+    width: 28px;
+}
+
+.header-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color:#52647C
+}
+
+.content{
+    max-width: 1110px;
+    margin-inline: auto;
+    margin-top: 24px;
+}
+
+.content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color:#212121;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+.content2{
+    max-width: 1110px;
+    margin-inline: auto;
+    margin-top: 24px;
+    display: flex;
+}
+
+.content2 img{
+    width: 540px;
+}
+
+.content2 h6{
+    font-family: montserrat;
+    font-size: 20px;
+    color:#212121;
+    margin-bottom: 16px;
+    margin-left: 20px;
+}
+.content2 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color:#212121;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.separator{
+    font-family: Monsterrat;
+    max-width: 1110px;
+    margin-inline: auto;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:50px;
+    font-size: 30px;
+    padding: 100px;
+    font-style: bold;
+    background-color: #ECF1F8;
+}
+
+.footer{
+    max-width: 1110px;
+    margin-inline: auto;
+    margin-top: 24px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.footer h6{
+    font-family: montserrat;
+    font-size: 20px;
+    color:#212121;
+    margin-bottom: 16px;
+}
+
+.footer p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color:#212121;
+    margin-bottom: 20px;
+}
+
+.video{
+    max-width: 1110px;
+    margin-inline: auto;
+    margin-top: 24px;
+    
+    }
+
+.video h4{
+    font-family: montserrat;
+    color:#212121;
+    margin-bottom: 24px;
+    font-size: 30px;
+}  
